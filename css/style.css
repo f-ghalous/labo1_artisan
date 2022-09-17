@@ -1,3 +1,14 @@
+.image{
+   align-items: center;
+    background-image:url(https://th.bing.com/th/id/OIP.ZBGSJvr9Uvm4MlPD1HkonQAAAA?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;}
+
+body{
+    background-color: bisque;
+}
+
 .menu{
     color:blueviolet;
     text-decoration: none;
@@ -5,3 +16,9 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.centrer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
