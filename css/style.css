@@ -8,6 +8,13 @@
 body{
     background-color: bisque;
 }
+header{
+    background-color: #63855ba2;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: rgb(222, 184, 135);
+}
 
 .menu{
     color:blueviolet;
@@ -17,8 +24,10 @@ body{
     letter-spacing: 2px;
 }
 .centrer {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+       width: 30cm;
+       height: 15;
       }
-  
+h1{
+    text-align: center;
+    color:blueviolet
+}
