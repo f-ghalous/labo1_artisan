@@ -1,9 +1,8 @@
 .image{
    align-items: center;
-    background-image:url(https://th.bing.com/th/id/OIP.ZBGSJvr9Uvm4MlPD1HkonQAAAA?pid=ImgDet&rs=1);
     background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;}
+    width: 600px;
+    height: 400px;}
 
 body{
     background-color: bisque;
@@ -13,7 +12,7 @@ header{
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    color: rgb(222, 184, 135);
+    color: white;
 }
 
 .menu{
@@ -22,12 +21,22 @@ header{
     padding: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    word-spacing: 50px;
 }
-.centrer {
-       width: 30cm;
-       height: 15;
-      }
+
 h1{
     text-align: center;
     color:blueviolet
+}
+.position_photo{
+    float: left;
+    border-color: red;
+}
+button{
+    border-radius: 1cm;
+    background-color: blueviolet;
+
+}
+span{
+    background-color: cyan;
 }
