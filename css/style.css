@@ -11,6 +11,7 @@ header {
     color: white;
     font-size: 25px;
     font-weight: bold;
+    
 }
 
 .menu {
@@ -88,6 +89,9 @@ a:link {
     background: #265301;
     color: #CDFEAA;
   }
+  .bouttom{
+    background-color: #CDFEAA;
+  }
   footer{
     background-color:#437A16;
     text-align: center;
@@ -96,5 +100,6 @@ a:link {
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 20px;
+    width: 30;
   
 }
