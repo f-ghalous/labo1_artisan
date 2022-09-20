@@ -18,7 +18,7 @@ header {
     color:aqua;
     font: size 30px;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration:underline;
     padding: 50px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -85,13 +85,8 @@ a:link {
 
   }
   
-  a:active {
-    background: #265301;
-    color: #CDFEAA;
-  }
-  .bouttom{
-    background-color: #CDFEAA;
-  }
+  
+  
   footer{
     background-color:#437A16;
     text-align: center;
