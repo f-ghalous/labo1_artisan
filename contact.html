@@ -52,21 +52,39 @@
         </div>
     </form>
     <br><br><br>
-    <form  class="user">
+    <table class="center">
+        <th>Me connecter</th>
+        <th>Créer un compte</th>
+        <tr>
+            <td>
+                <form  class="user">
+                    <div>
+                        <label for="user">Email </label>
+                        <input type="email" id ="user" required>
+                    </div>    
+                    <br>
+                    <div>
+                        <label for="password">password </label>
+                        <input type="password" id ="password"  placeholder="&#x1F511;"required>
+                    </div>
+                    <div>
+                        <input class="login" type="submit" value="Sign"> 
+                    </div>   
+                </form>
+            </td>    
+            <td id="connecter" >
+               <p> Vous êtes un nouveau client ?
+                
+                Créez un compte pour poursuivre votre commande et faciliter vos futurs 
+                achats sur ce site.  vous garantit sécurité et confidentialité quant 
+                à l'ensemble des informations personnelles que vous êtes susceptible de fournir.
+               </p>
 
-        <div>
-            <label for="user">username </label>
-            <input type="text" id ="user" required>
-        </div>    
-        <br>
-        <div>
-            <label for="password">password </label>
-            <input type="password" id ="password"  placeholder="&#x1F511;"required>
-        </div>
-        <div>
-            <input class="login" type="submit" value="Sign"> 
-        </div>   
-    </form>
-   
+               <div >
+                <input class="login" type="button"  value="Créer un compte"> 
+               </div>  
+            </td>
+        </tr>    
+    </table>
 </body>
 </html>

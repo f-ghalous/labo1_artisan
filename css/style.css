@@ -155,7 +155,7 @@ label{
   .login{
     margin-top: 40px;
     margin-left: 40px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     border-radius: 8px;
     background-color:blue;
     color:white;
@@ -164,6 +164,30 @@ label{
     width:3cm;
     height: 1cm;
     cursor: pointer
+  }
+  
+  th{
+    background-color:darkgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 2cm;
+  }
+  #connecter{
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    text-align: justify;
+    width: 400px;
+    font-size: 20px;
+    font-size: 15;
+    padding-top: 2px;
+    margin-top: 5px;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto
   }
   footer{
     background-color:#437A16;
