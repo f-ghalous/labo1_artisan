@@ -1,4 +1,4 @@
-
+/* inspirer du site:https://moalibijoux.com/product/collier-en-argent-c112/*/
 
 body {
     background-color: bisque;
@@ -24,7 +24,7 @@ nav{
 }
 
 .menu {
-    color:aqua;
+    color:darkblue;
     font: size 30px;
     font-weight: bold;
     text-decoration:underline;
@@ -157,13 +157,15 @@ button{
   background-color:blue;
   color:white;
   width: 50%;
-  height: 2em;cm ;
-
+  height: 2em;
   cursor: pointer;
+  margin-left: 25%;
+  margin-right: 30%
 
 }
 span{
     background-color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
 }
 th{
   background-color:darkgreen;
@@ -196,7 +198,8 @@ th{
   font-size: 15;
   padding-top: 2px;
   margin-top: 5px;
-  padding-left: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
  a:link {
     color: #265301;
