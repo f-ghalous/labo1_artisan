@@ -37,8 +37,8 @@ nav{
 
  img
  {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin-left: 8px
  }
 td{
@@ -152,7 +152,20 @@ th{
   font-size: 20px;
   height: 2cm;
 }
-#connecter{
+.connecter{
+  background-color: aliceblue;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blueviolet;
+  text-align: justify;
+  width: 400px;
+  font-size: 20px;
+  font-size: 15;
+  padding-top: 2px;
+  margin-top: 5px;
+  padding-left: 2px;
+}
+.articles{
   background-color: aliceblue;
   border-style: solid;
   border-width: 5px;
