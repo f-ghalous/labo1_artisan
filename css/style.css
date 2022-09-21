@@ -34,12 +34,21 @@ nav{
     word-spacing: 200px;
     text-align: left;
 }
+.img_home{
+  width: 400px;
+  height: 400px;
+  margin-left: 8px;
+}
+ 
 
- img
- {
+ .img_article{
   width: 200px;
-  height: 200px;
-  margin-left: 8px
+  height: 250px;
+  margin-left: 8px;
+  border-style: solid;
+  border-width: 5px;
+  border-color:black;
+
  }
 td{
  width: 200;
@@ -138,8 +147,19 @@ p {
 button{
     border-radius: 2px;
     border-bottom: green;
-    background-color: blueviolet;
+    background-color:burlywood;
     cursor: pointer;
+
+}
+.acheter{
+  border-radius: 5px;
+  border-bottom:black;
+  background-color:blue;
+  color:white;
+  width: 50%;
+  height: 2em;cm ;
+
+  cursor: pointer;
 
 }
 span{
@@ -166,10 +186,10 @@ th{
   padding-left: 2px;
 }
 .articles{
-  background-color: aliceblue;
+  background-color:cornflowerblue;
   border-style: solid;
   border-width: 5px;
-  border-color: blueviolet;
+  border-color:darkblue;
   text-align: justify;
   width: 400px;
   font-size: 20px;
